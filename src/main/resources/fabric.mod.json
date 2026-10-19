@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "flipmod",
+  "version": "${version}",
+  "name": "FlipMod",
+  "description": "Auction flipping helper for Hypixel SkyBlock: Coflnet flip feed, auto-snipe and auto-claim.",
+  "authors": ["you"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.flipmod.FlipMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.1",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
